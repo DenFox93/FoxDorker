@@ -1,0 +1,93 @@
+Command line:
+"travis whoami -t GGEgqzL4zt7sa3zVgspU"
+
+
+  ________                                 __
+ /        |                               /  |
+ ########/ ______    ______    __     __  ##/    _______
+    ## |  /      \  /      \  /  \   /  | /  |  /       |
+    ## | /######  | ######  | ##  \ /##/  ## | /#######/
+    ## | ## |  ##/  /    ## |  ##  /##/   ## | ##      \
+    ## | ## |      /####### |   ## ##/    ## |  ######  |
+    ## | ## |      ##    ## |    ###/     ## | /     ##/
+    ##/  ##/        #######/      #/      ##/  #######/
+
+    TRajectory Analyzer and VISualizer  -  Open-source freeware under GNU GPL v3
+
+    Copyright (c) Martin Brehm      (2009-2020), University of Halle (Saale)
+                  Martin Thomas     (2012-2020)
+                  Sascha Gehrke     (2016-2020), University of Bonn
+                  Barbara Kirchner  (2009-2020), University of Bonn
+
+    http://www.travis-analyzer.de
+
+    Please cite: J. Chem. Phys. 2020, 152 (16), 164105.         (DOI 10.1063/5.0005078 )
+                 J. Chem. Inf. Model. 2011, 51 (8), 2007-2023.  (DOI 10.1021/ci200217w )
+
+    There is absolutely no warranty on any results obtained from TRAVIS.
+
+ #  Running on kali at Fri Dec  4 10:30:25 2020 (PID 7826)
+ #  Running in /home/kali/bin/GitDorker
+ #  Version: May 4 2020 (may the force (-: ) HF2, built at Oct  6 2020, 19:59:38, compiler "10.2.0", GCC 10.2.0
+ #  Target platform: Linux,  Compile flags: DEBUG_ARRAYS 
+ #  Machine: int=4b, long=8b, addr=8b, 0xA0B0C0D0=D0,C0,B0,A0.
+ #  Home: /root,  Executable: /usr/local/bin/travis
+ #  Input from terminal,  Output to terminal
+
+    >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
+
+    Loading configuration from /root/.travis.conf ...
+
+[Renaming existing File input.txt to #3#input.txt ...OK.]
+Unknown parameter: "whoami".
+
+    List of supported command line options:
+
+      -p <file>       Load position data from specified trajectory file.
+                      File format may be *.xyz, *.pdb, *.lmp (LAMMPS), HISTORY (DLPOLY), or *.prmtop/*.mdcrd (Amber).
+                      The BQB format (*.bqb, *.btr, *.emp, *.blist) is also supported.
+      -vel <file>     Read atom velocities from a file in addition to the position trajectory.
+                      Currently, only .xyz format is supported for velocity data.
+      -i <file>       Read input from specified text file.
+      -c <file>       Read and execute control file (experimental).
+      cubetool        Execute the CubeTool for modifying Gaussian Cube files.
+      -sankey <file>  Create sankey diagrams (file name is optional).
+      (de-)compress   Start built-in bqbtool (compress trajectories to BQB format).
+      -config <file>  Load the specified configuration file.
+      -stream         Treat input trajectory as a stream (e.g. named pipe): No fseek, etc.
+      -showconf       Show a tree structure of the configuration file.
+      -writeconf      Write the default configuration file, including all defines values.
+
+      -verbose        Show detailed information about what's going on.
+      -nocolor        Execute TRAVIS in monochrome mode (suitable for white background).
+      -dimcolor       Use dim instead of bright colors.
+
+      -credits        Display a list of persons who contributed to TRAVIS.
+      -help, -?       Shows this help.
+
+    If only one argument is specified, it is assumed to be the name of a trajectory file.
+    If argument is specified at all, TRAVIS asks for the trajectory file to open.
+
+    Note: To show a list of all persons who contributed to TRAVIS,
+          please add "-credits" to your command line arguments, or set the
+          variable "SHOWCREDITS" to "TRUE" in your travis.conf file.
+
+    Source code from other projects used in TRAVIS:
+      - lmfit     from Joachim Wuttke
+      - kiss_fft  from Mark Borgerding
+      - voro++    from Chris Rycroft
+
+    http://www.travis-analyzer.de
+
+    Please cite all of the following articles for the analyses you have used:
+
+  * For TRAVIS in general:
+
+    "TRAVIS - A Free Analyzer for Trajectories from Molecular Simulation",
+    M. Brehm, M. Thomas, S. Gehrke, B. Kirchner; J. Chem. Phys. 2020, 152 (16), 164105.   (DOI 10.1063/5.0005078 )
+
+    "TRAVIS - A Free Analyzer and Visualizer for Monte Carlo and Molecular Dynamics Trajectories",
+    M. Brehm, B. Kirchner; J. Chem. Inf. Model. 2011, 51 (8), pp 2007-2023.   (DOI 10.1021/ci200217w )
+
+*** The End ***
+
