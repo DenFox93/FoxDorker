@@ -1,0 +1,36 @@
+access
+amazon
+“api key”
+api_key
+apikey
+“api token”
+api_token:
+auth
+authentication
+catchword
+client_id
+credential
+database
+develop
+ftpconfig
+jdbc
+mariadb
+mongodb
+oauth
+OTP
+pass
+passwd
+pgp
+postgres
+postgresql
+private
+putty
+pw
+pwd
+rsa
+"Service account"
+slack
+ssh
+user
+username
+Webhook

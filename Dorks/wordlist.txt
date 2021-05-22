@@ -1,0 +1,61 @@
+access key
+access password
+access pwd
+access user
+access token
+AIza
+amazon
+twilio
+slack
+“api key”
+api_key
+apikey
+key user
+auth
+authentication
+sq0csp
+catchword
+client_id
+credential
+database
+dbpass
+develop
+ftp
+foursquare
+github
+gmail
+Google Cloud
+heroku
+jdbc
+mariadb
+mailgun
+mailchimp
+mongodb
+oauth
+OTP
+paypal
+pass
+passwd
+pgp
+picatic
+postgres
+postgresql
+private
+putty
+pw
+pwd
+googleusercontent
+rsa
+"Service account"
+slack
+ya29
+ssh
+square
+sk_live_
+rk_live_
+token
+user
+username
+Webhook
+Authorization
+UsernamePasswordCredentialsProvider
